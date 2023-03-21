@@ -4,9 +4,6 @@ import spinwheel3 from './spinwheel.png'
 
 
 class collectCoupon extends React.Component {
-    constructor(props){
-        super(props);
-    }
 
     //Copies coupon code to the clipboard, redirects to LogInScreen
     copyAndClose = () => {
